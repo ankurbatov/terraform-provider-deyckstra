@@ -3,11 +3,11 @@ subcategory: "EC2 (Elastic Compute Cloud)"
 layout: "aws"
 page_title: "aws_ami"
 description: |-
-  Creates and manages a custom Amazon Machine Image (AMI).
+Creates and manages a custom Amazon Machine Image (AMI).
 ---
 
 [default-tags]: https://www.terraform.io/docs/providers/aws/index.html#default_tags-configuration-block
-[images]: https://docs.k2.cloud/en/services/storage/images.html
+[images]:https://docs.k2.cloud/en/services/storage/images.html
 [timeouts]: https://www.terraform.io/docs/configuration/blocks/resources/syntax.html#operation-timeouts
 
 
@@ -80,7 +80,7 @@ The `timeouts` block allows you to specify [timeouts] for certain actions:
 
 * `create` - (Default `40 minutes`) Used when creating the image
 * `update` - (Default `40 minutes`) Used when updating the image
-* `delete` - (Default `90 minutes`) Used when deregistering the image
+* `delete - (Default `90 minutes`) Used when deregistering the image
 
 ## Attributes Reference
 

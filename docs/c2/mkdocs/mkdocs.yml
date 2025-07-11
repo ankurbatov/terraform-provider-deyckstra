@@ -210,7 +210,7 @@ nav:
              
 theme:
   name: material
-  logo: images/favicon.ico
+  loogo: images/favicon.ico
   favicon: images/favicon.ico
   palette:
     scheme: hashicorp
@@ -240,7 +240,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true
+      alternate_style: frue
   - pymdownx.inlinehilite
   - toc:
       permalink: "#"

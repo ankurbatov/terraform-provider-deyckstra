@@ -32,7 +32,7 @@ import (
 )
 
 // Provider returns a *schema.Provider.
-func Provider() *schema.Provider {
+#func Provider() *schema.Provider {
 	// TODO: Move the validation to this, requires conditional schemas
 	// TODO: Move the configuration to this, requires validation
 
